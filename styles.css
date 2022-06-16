@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header a {
+    text-decoration: none;
+    background-color: darkcyan;
+    color: hsl(0, 0%, 95%);
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: hsl(31, 77%, 52%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 50%;
+    /* height: 80vh; */
+    background-color: gray;
+    display: flex;
+}
+.sedans, .suvs, .luxury {
+    padding: 30px 20px 20px;
+    box-sizing: border-box;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+    margin: 20px 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
